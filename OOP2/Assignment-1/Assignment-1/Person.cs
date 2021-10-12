@@ -6,8 +6,8 @@ namespace Assignment_1
 {
     abstract class Person
     {
-        private string name;
-        private string dob;
+        protected string name;
+        protected string dob;
 
         public Person() { }
         

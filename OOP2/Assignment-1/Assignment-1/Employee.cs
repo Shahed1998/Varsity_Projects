@@ -6,7 +6,7 @@ namespace Assignment_1
 {
     class Employee : Person
     {
-        public Account acc;
+        private Account acc;
 
         public Employee() { }
       
@@ -24,8 +24,8 @@ namespace Assignment_1
         public override void display()
         {
             Console.WriteLine("--------------------");
-            Console.WriteLine($"Name = {base.Name}");
-            Console.WriteLine($"DOB = {base.DOB}");
+            Console.WriteLine($"Name = {Name}");
+            Console.WriteLine($"DOB = {DOB}");
             acc.displayAccDetails();
 
 
